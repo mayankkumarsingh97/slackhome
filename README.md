@@ -1,1 +1,1 @@
-slack Home page intern 
+slack Home page 
