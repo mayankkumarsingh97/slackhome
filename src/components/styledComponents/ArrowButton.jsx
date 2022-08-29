@@ -22,7 +22,7 @@ ${({ teams }) => teams && css`
   }
   &:hover{
     ::after{
-      width: 90%;
+      width: 98%;
     }
   }
   @media (max-width:575px) {
