@@ -9,20 +9,15 @@ font-size:1rem;
 border-width:0px;
 margin:1.4rem 0;
 width:100%;
-
 border: 2px solid var(--purple-bg);
 border-radius:var(--border-rad_btn);
-
 ${props => props.header_purple && css`
     background-color:#fff;
     border: 2px solid #fff;
     color:#4A154B;
     font-weight: 600;
     margin:0 5px;
-    
 `};
-
-
 ${props => props.hero_email && css`
     background-color:#fff;
     border: 2px solid #fff;
@@ -31,15 +26,12 @@ ${props => props.hero_email && css`
     font-weight: 600;
     text-transform: uppercase;
     padding:.55rem .25rem;
-    /* transition: transform .088s linear; */
+    transition: transform .088s linear;
     &:hover{
-      transform: scale(.987);
+      transform: scale(.9999);
     }
     
 `};
-
-
-
 ${props => props.sales_purple  && css`
   background-color:#611f69;
   padding:.7rem 1rem;
@@ -49,9 +41,6 @@ ${props => props.sales_purple  && css`
     background-color:  #4A154B;;
   }
 `};
-
-
-
 ${props => props.tryforfree  && css`
   background-color:#fff;
   padding:.8rem 1.2rem;
