@@ -1,0 +1,101 @@
+.curve {
+    background: var(--purple-bg);
+    position: relative;
+    /* clip-path: ellipse(90% 55% at 58% 24%); */
+    clip-path: ellipse(68% 55% at 50% 26%);
+    overflow-x: hidden;
+    padding-bottom: 3.5rem;
+}
+.curve h1 {
+    color: var(--white);
+    font-size: var(--fs-3);
+    font-family: var(--font-fam_teams);
+    font-weight: var(--fw-700);
+}
+.bottom_footer_area {
+    border-top: 3px solid #ccc;
+}
+.footer ul {
+    margin: 0 2rem;
+}
+.footer ul li {
+    margin: 1rem 0;
+}
+.footer ul li:first-child {
+    color: #000;
+    font-weight: 600;
+}
+
+.footer ul li:first-child a {
+    cursor: text;
+}
+
+.footer ul li:first-child a:hover {
+    color: #000;
+}
+
+.footer ul li:not(:first-child) {
+    color: rgba(0, 0, 0, .8);
+    font-weight: 500;
+    font-size: .900rem;
+}
+
+.bottom_footer_area select {
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+
+.wrapper b a,
+select {
+    font-weight: 700 !important;
+    font-size: .9rem;
+}
+
+.bottom_footer_area p {
+    font-size: .7rem;
+}
+
+.dloadslack a * {
+    font-size: 1.4rem;
+}
+
+.dloadslack > :nth-child(1) {
+    font-size: 1.2rem;
+    color: blue;
+    font-weight: 500;
+
+}
+
+/* Footer navigation bootsrap class overwritting */
+/* Footer navigation bootsrap class overwritting */
+
+.accordion button {
+    box-shadow: none !important;
+    border: none;
+    outline: none;
+
+}
+
+.accordion-button:focus {
+    border: 2px dotted var(--purple-bg);
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000 !important;
+    background-color: #fff !important;
+}
+
+.accordion {
+    --bs-accordion-border-color: none !important;
+    --bs-accordion-btn-icon-transform: rotate(-90deg);
+}
+
+@media (max-width:575px) {
+    .wrapper b {
+        display: block;
+        width: 100%;
+    }
+}

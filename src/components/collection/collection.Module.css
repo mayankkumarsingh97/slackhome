@@ -1,0 +1,60 @@
+.card_wrapper {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #fff;
+    padding: 10px 10px;
+    transition: all .166s linear;
+
+}
+
+.card_wrapper .title a {
+    color: var(--black)
+}
+
+.card_wrapper .title a:hover {
+    color: var(--black);
+}
+
+#collection_btn {
+    font-weight: 500;
+    color: lightskyblue;
+}
+
+.collec_img_wrapper img {
+    width: 100%;
+}
+
+.card_wrapper:hover {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+    cursor: pointer;
+    transform: scale(1.044);
+}
+
+.makeR::-webkit-scrollbar-track,
+.makeR::-webkit-scrollbar-thumb {
+    background-color: hsl(0, 0%, 80%);
+}
+
+.makeR:is(:hover, :focus-within)::-webkit-scrollbar-track {
+    background-color: hsl(0, 0%, 90%);
+}
+
+.makeR:is(:hover, :focus-within)::-webkit-scrollbar-thumb {
+    background-color: hsl(0, 0%, 80%);
+}
+
+@media (max-width:575px) {
+    .makeR {
+        scroll-snap-type: inline mandatory;
+        overflow-x: auto;
+    }
+
+    .x_scroll {
+        min-width: 100%;
+        scroll-snap-align: end;
+        padding: 20px 0;
+    }
+}

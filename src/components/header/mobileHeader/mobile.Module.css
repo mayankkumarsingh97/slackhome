@@ -1,0 +1,29 @@
+.bgmobile {
+    background-color: var(--purple-bg);
+    color: #fff;
+}
+
+.toFixMobilebar {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: #000;
+    z-index: 899;
+    
+}
+
+.toDesktopbar {
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:7.5rem;
+    border-radius: 30px;
+    justify-content: center;
+    color: #000 !important;
+    background-color: var(--purple-bg);
+    z-index: 999;
+    margin-top:6px;
+    padding: 10px 15px 10px 10px;
+}

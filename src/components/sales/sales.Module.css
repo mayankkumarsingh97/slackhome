@@ -1,0 +1,32 @@
+.content h1{
+    color:var(--black);
+    font-size: var(--fs-3);
+    font-family:var(--font-fam_teams);
+    font-weight: var(--fw-700);
+    margin-bottom: 1.2rem;
+}
+
+.content p{
+    color:var(--black);
+    font-weight: var(--fw-500);
+}
+
+.wrapper_sales span{
+    font-family:var(--font-fam_teams);
+    font-weight: var(--fw-600);
+    font-size: 3.5rem;
+    color:var(--purple-bg);
+}
+.wrapper_sales p{
+    color:var(--black);
+    font-weight: var(--fw-500);
+}
+.wrapper_sales{
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width:575px) {
+    .wrapper_sales{
+        align-items: center;
+    }
+}

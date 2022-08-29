@@ -1,0 +1,81 @@
+  .content_wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  .content_wrapper p{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  .content_wrapper .heading h1{
+    color:#fff;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* sign up button styles */
+  .signup .signup_email button{
+    font-size: .9rem;
+    text-transform: uppercase;
+    padding:1rem   2rem;
+    color:var(--purple-bg);
+    border-radius: 5px;
+    border: 1px solid var(--purple-bg);
+    font-weight: 500;
+    background-color: var(--white);
+  }
+
+  .signup .signup_google button{
+    padding:1rem   1rem;
+    text-transform: uppercase;
+    color:var(--white);
+    border-radius: 5px;
+    border: 1px solid var(--purple-bg);
+    font-weight: 500;
+    background-color:#4285F4;
+    font-size: .9rem;
+    
+    
+  }
+  .signup .signup_email button:hover{
+    transform: scale(.99);
+  }
+  /* TRUSTED BY COMPANIES ALL OVER THE WORLD section */
+  .trusted_by{
+    color:black;
+    font-weight: 700;
+    font-size: .9rem;
+  }
+
+ .google_icon{
+  background-color: yellow;
+  
+ }
+  @media (max-width:768px) {
+    .our_partners{
+      width: 93%!important;
+    }
+  }
+
+  @media (max-width:575px) {
+    .our_partners{
+      width: 100%!important;
+    }
+    .trusted_by{
+     padding:20px 0;
+    }
+    .signup{
+      flex-direction: column;
+      width: 100%;
+    }
+    .signup button{
+      width: 100%;
+      margin:.4rem 0;
+      padding:1.2rem 0;
+    }
+    .bigHeading{
+      font-size:4rem!important;
+      
+    }
+  }

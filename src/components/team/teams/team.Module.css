@@ -1,0 +1,30 @@
+.team-bg {
+    background-color: #F4EDE4;
+}
+
+.content h1 {
+    color: var(--black);
+    font-size: var(--fs-3);
+    font-family: var(--font-fam_teams);
+    font-weight: var(--fw-700);
+    margin-bottom: 1.2rem;
+}
+
+.content p {
+    color: var(--black);
+    /* font-family:"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif; */
+    font-weight: 400;
+    line-height: 1.4444;
+    letter-spacing: normal;
+    font-size: 1.125rem;
+}
+
+@media  (max-width:575px) {
+    .content h1{
+        font-size: 2rem!important;
+    }
+    .arrowHide{
+        display: none;
+
+    }
+}

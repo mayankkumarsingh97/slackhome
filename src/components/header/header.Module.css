@@ -1,0 +1,84 @@
+.logo p {
+    color: var(--white);
+    /* padding:.45rem 0 0  0; */
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li:not(:first-child) {
+    margin: 0 1.2rem;
+}
+
+.menu li a,
+select {
+    font-size: .9rem;
+    font-weight: 600;
+    color: var(--white)
+}
+
+.header_se_sign li a {
+    color: #fff;
+    font-size: .9rem;
+    font-weight: 600;
+    color: var(--white)
+}
+
+.menu li a:hover {
+
+    border-bottom: 1px solid #fff;
+}
+
+.navbg {
+    background-color: var(--purple-bg)
+}
+
+.navbg_option {
+    border: none;
+    outline: none;
+    background-color: var(--purple-bg)
+}
+
+/* Mobile slide menu */
+/* Mobile slide menu */
+.sidebar {
+    z-index: 6;
+}
+
+.mobile-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    max-width: 100%;
+    padding: 1rem;
+    width: 100%;
+    background-color: var(--white);
+    transform: translateX(100%);
+    visibility: hidden;
+    transition: .45s ease-in;
+    z-index: 300;
+    color: black;
+    max-height: 100vh;
+}
+
+.mobile-navbar.active {
+    z-index: 1000;
+    transform: translateX(0);
+    visibility: visible;
+    transition: .30s ease-out;
+    background-color: #fff;
+    overflow: hidden;
+
+
+
+}
+
+.mobile-navbar.deactive {
+    transform: translateX(100%);
+    visibility: hidden;
+    transition: .30s ease-out;
+}

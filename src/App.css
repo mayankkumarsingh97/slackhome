@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+/* ------------------------------- */
+      /* UNIVERSAL SETTINGS */
+/* ------------------------------- */
+
+/* -------------------------------------------------- */
+           /* Common Essential Stuff */
+/* -------------------------------------------------- */
+:root{
+  /**
+  *** Color 
+  **/
+  --arrow-btn:#1264a3;
+  --alert-yellow:#F3F3BF;
+  --purple-bg:#4A154B;
+  --white-30:hsla(0,0%,100%,.3);
+  --black-10:hsla(0,0%,0%,.1);
+  --black-15:hsla(0,0%,2%,.3);
+  --white:hsla(0,0%,100%);
+  --black:hsl(0,0%,0%);
+
+  /**
+  *** Gradient Color
+  **/
+  --gradient:linear-gradient(to right, trasparent 50%, var(--white-30) 100%);
+
+  /**
+  *** Typograpy
+  **/
+  --fs-1:4.8rem;
+  --fs-2:4rem;
+  --fs-3:3.4rem;
+  --fs-4:2.4rem;
+  --fs-5:2rem;
+  --fs-6:1.8rem;
+  --fs-7:1.8rem;
+  --fs-8:1.6rem;
+  --fs-9:1.4rem;
+  --fs-10:1.rem;
+  --fs-11:.9rem;
+  /**
+  *** Font-wight
+  **/
+  --fw-400:400;
+  --fw-500:500;
+  --fw-600:600;
+  --fw-700:700;
+  --fw-800:800;
+  --fw-900:900;
+  /** 
+  *** Spacing 
+  **/
+  --section-padding:25px;
+  /**
+  *** Shadow
+  **/
+  --shadow-1:0 8px 16px var(--block-10);
+  --shadow-1:0 8px 16px var(--block-15);
+  /** 
+  *** border-radius
+  **/
+  --border-rad_btn:4px;
 }
 
-.App-logo {
-  height: 40vmin;
+/* ---------------------------------------------- */
+                   /* RESET Defaults*/
+/* ---------------------------------------------- */
+*,*::after,*::before{
+  margin:0;padding:0;
+  box-sizing: border-box;
+}
+li {list-style: none;}
+
+a,
+img,
+input,
+button{
+  display: block;
+}
+a{
+  text-decoration: none;
+  color:inherit;
+}
+img{
+  height: auto;
+}
+input,button{
+  background: none;
+  border: none;
+  font:inherit;
+}
+input,video{
+  width: 100%;
+}
+button{
+  cursor: pointer;
+}
+ion-icon{
   pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+html{
+  font-size: var(--fs-10);
+  scroll-behavior: smooth;
 }
