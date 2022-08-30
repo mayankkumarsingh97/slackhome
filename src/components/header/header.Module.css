@@ -66,17 +66,21 @@ select {
 }
 
 .mobile-navbar.active {
-    z-index: 1000;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 2000;
+    height: 100%;
     transform: translateX(0);
     visibility: visible;
     transition: .30s ease-out;
     background-color: #fff;
     overflow: hidden;
-
-
-
 }
 
+.cd-none{
+    display: none;
+}
 .mobile-navbar.deactive {
     transform: translateX(100%);
     visibility: hidden;

@@ -10,12 +10,12 @@ const Team = (props) => {
                 <div className="row justify-content-between align-items-center">
 
 
-                    <div className="col-md-6">
+                    <div className="col-lg-6 col-md-8">
                         <video autoPlay loop ref={vidRef} muted>
                             <source src={props.video} type="video/mp4" />
                         </video>
                     </div>
-                    <div className="col-md-5">
+                    <div className="col-lg-5">
                         <div className="content">
                             <h1>{props.heading}</h1>
                             <p>{props.desc}</p>

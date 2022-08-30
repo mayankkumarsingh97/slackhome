@@ -2,7 +2,8 @@
     background: var(--purple-bg);
     position: relative;
     /* clip-path: ellipse(90% 55% at 58% 24%); */
-    clip-path: ellipse(68% 55% at 50% 26%);
+    /* clip-path: ellipse(68% 55% at 50% 26%); */
+    clip-path:ellipse(68% 55% at 51% 32%);
     overflow-x: hidden;
     padding-bottom: 3.5rem;
 }
@@ -63,8 +64,8 @@ select {
 }
 
 .dloadslack > :nth-child(1) {
-    font-size: 1.2rem;
-    color: blue;
+    font-size: .8rem;
+    color: #1264a3;
     font-weight: 500;
 
 }
@@ -98,4 +99,5 @@ select {
         display: block;
         width: 100%;
     }
+   
 }

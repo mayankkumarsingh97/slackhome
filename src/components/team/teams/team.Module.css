@@ -18,6 +18,19 @@
     letter-spacing: normal;
     font-size: 1.125rem;
 }
+.content i{
+    font-size: 1.5rem;
+    color:var(--black)
+}
+.content b{
+padding:5px 0;
+}
+.team4{
+    border-radius:  0 150px 150px 0;
+    width: 96%;
+
+    position: relative;
+}
 
 @media  (max-width:575px) {
     .content h1{
@@ -26,5 +39,5 @@
     .arrowHide{
         display: none;
 
-    }
+    }   
 }

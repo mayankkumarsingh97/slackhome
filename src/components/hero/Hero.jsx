@@ -16,7 +16,7 @@ const Hero = () => {
     return (<>
         <div className="container-fluid navbg pt-md-2">
             <div className="row justify-content-md-end align-items-center">
-                <div className="col-md-5">
+                <div className="col-lg-5">
                     <div className="content_wrapper">
                         <div className="heading mb-md-3">
                             <h1 className='text-md-start text-center bigHeading'>Great teamwork starts <br />
@@ -30,7 +30,7 @@ const Hero = () => {
 
                     </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-lg-6 col-md-12 py-md-5">
                     <div className="d-flex vdo_wrapper mt-md-0 mt-3">
                         <video autoPlay loop ref={vidRef} muted>
                             <source src={Hero_vdo} type="video/mp4" />

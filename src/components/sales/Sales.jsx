@@ -1,7 +1,7 @@
 import "./sales.Module.css"
 import InlineButtons from "../styledComponents/InlineButtons";
 import InlineButton2 from "../styledComponents/InlineButton2";
-import Team from "../team/teams/Team"
+import Team4 from "../team/teams/Team4"
 import vdo4 from "../../assets/weareablto.mp4"
 const Sale = () => {
     const heading3 = "Move faster with your tools in one place"
@@ -43,11 +43,9 @@ const Sale = () => {
                   </div>
                 </div>
             </div>
-           
+           <Team4 video={vdo4} heading={heading3} desc={desc3} btn_desc={btn_desc3}/>
         </div>
-        <div className="container-fluid">
-        <Team video={vdo4}  desc={desc3} btn_desc={btn_desc3}/>
-        </div>
+      
     </>)
 }
 export default Sale;

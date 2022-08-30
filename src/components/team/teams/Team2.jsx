@@ -8,7 +8,7 @@ const Team = (props) => {
         <div className="container-fluid px-0 my-md-2 py-4">
             <div className="container mt-md-5 px-0">
                 <div className="row justify-content-between align-items-center">
-                    <div className="col-md-5 order-md-first order-last">
+                    <div className="col-lg-5 order-md-first order-last">
                         <div className="content">
                             <h1>{props.heading}</h1>
                             <p>{props.desc}</p>
@@ -18,7 +18,7 @@ const Team = (props) => {
                             </ArrowButton>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-lg-6 col-md-8">
                         <video autoPlay loop ref={vidRef} muted>
                             <source src={props.video} type="video/mp4" />
                         </video>

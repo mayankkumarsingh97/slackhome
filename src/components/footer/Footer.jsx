@@ -11,8 +11,8 @@ const Footer = () => {
 
     return (<>
         <div className="container-fluid curve center">
-            <div className="container py-5 my-5">
-                <div className="row py-md-5 justify-content-center">
+            <div className="container py-md-2 my-md-2 pb-5">
+                <div className="row py-md-2 justify-content-center">
                     <div className="col-12">
                         <h1 className="text-center">Welcome to your new digital HQ.</h1>
 
@@ -209,7 +209,7 @@ const Footer = () => {
         <div className="container">
             <div className="row ">
                 <div className="col-md-8">
-                    <p className="mb-md-4 my-3" style={{ fontSize: ".8rem" }}>©2022 Slack Technologies, LLC, a Salesforce company.
+                    <p className="mb-md-3" style={{ fontSize: ".8rem" }}>©2022 Slack Technologies, LLC, a Salesforce company.
                         All rights reserved. Various trademarks held by their respective owners.</p>
                 </div>
             </div>

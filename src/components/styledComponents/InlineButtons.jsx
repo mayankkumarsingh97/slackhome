@@ -1,8 +1,8 @@
-import styled ,{css} from 'styled-components'
+import styled, { css } from 'styled-components'
 
 const InlineButton = styled.button`
 color: var(--white);
-${props => props.sales_purple  && css`
+${props => props.sales_purple && css`
   background-color: indigo;
 `};
 font-size:1rem;
@@ -30,9 +30,11 @@ ${props => props.hero_email && css`
     &:hover{
       transform: scale(.9999);
     }
-    
+    @media (min-width:575px) and (max-width:768px){
+     margin:.5rem 0;
+ } 
 `};
-${props => props.sales_purple  && css`
+${props => props.sales_purple && css`
   background-color:#611f69;
   padding:.7rem 1rem;
   margin:1.4rem 4;
@@ -41,7 +43,7 @@ ${props => props.sales_purple  && css`
     background-color:  #4A154B;;
   }
 `};
-${props => props.tryforfree  && css`
+${props => props.tryforfree && css`
   background-color:#fff;
   padding:.8rem 1.2rem;
   margin:1.4rem 0;
