@@ -54,7 +54,7 @@ select {
     left: 0;
     bottom: 0;
     max-width: 100%;
-    padding: 1rem;
+    padding-top:.25rem;
     width: 100%;
     background-color: var(--white);
     transform: translateX(100%);

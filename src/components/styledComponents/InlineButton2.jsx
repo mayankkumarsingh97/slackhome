@@ -52,6 +52,16 @@ ${props => props.talktosales_footer  && css`
   }
 `};
 
+${props => props.download  && css`
+  background-color: #4A154B;
+  padding:.8rem 1.2rem;
+  margin:1.4rem 0;
+  color:#fff;
+  width:100%;
+ 
+`};
+
+
 @media (max-width:575px){
     margin:.5rem 0;
    } 

@@ -43,6 +43,7 @@ ${props => props.sales_purple && css`
     background-color:  #4A154B;;
   }
 `};
+
 ${props => props.tryforfree && css`
   background-color:#fff;
   padding:.8rem 1.2rem;
@@ -56,7 +57,20 @@ ${props => props.tryforfree && css`
 &:hover {
     border:2px solid #4A154B;
     
-  }
+}
+
+
+${props => props.signin && css`
+  padding:.8rem 1.2rem;
+  margin:1.4rem 0;
+  color:#4A154B;
+  font-weight: 500;
+  border:2px solid #FFF;
+  border-radius: 3px;
+  width:50%;
+  transition: all .087s ease;
+`};
+
   
  @media (max-width:575px){
   margin:.5rem 0;
