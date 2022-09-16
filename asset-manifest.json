@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/slackhome/static/css/main.1039b0f6.css",
-    "main.js": "/slackhome/static/js/main.046db717.js",
+    "main.js": "/slackhome/static/js/main.9204125c.js",
     "static/media/chooseHowuworkto.webm": "/slackhome/static/media/chooseHowuworkto.65ec9e3e7a46b211b107.webm",
     "static/media/bringTeamTogether.webm": "/slackhome/static/media/bringTeamTogether.99a24f182bb746f259e9.webm",
     "static/media/weareablto.mp4": "/slackhome/static/media/weareablto.513f2c8fc741abd2e4e7.mp4",
@@ -13,10 +13,10 @@
     "static/media/img-promo-01.png": "/slackhome/static/media/img-promo-01.cbba08ee00784bcf3f80.png",
     "index.html": "/slackhome/index.html",
     "main.1039b0f6.css.map": "/slackhome/static/css/main.1039b0f6.css.map",
-    "main.046db717.js.map": "/slackhome/static/js/main.046db717.js.map"
+    "main.9204125c.js.map": "/slackhome/static/js/main.9204125c.js.map"
   },
   "entrypoints": [
     "static/css/main.1039b0f6.css",
-    "static/js/main.046db717.js"
+    "static/js/main.9204125c.js"
   ]
 }
