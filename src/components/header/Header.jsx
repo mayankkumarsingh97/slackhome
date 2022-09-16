@@ -1,10 +1,12 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect,useContext } from "react";
 import "./header.Module.css"
 import InlineButton from '../styledComponents/InlineButtons'
 import InlineButton2 from '../styledComponents/InlineButton2'
 import SearchIcon from '@mui/icons-material/Search'
 import MobileHeader from "./mobileHeader/MobileHeader"
+import { MyContext } from "../../index";
 const Header = () => {
+    const data=useContext(MyContext)
     const [position, setPosition] = useState("static")
     const fixNavbar = () => {
         let winHeight = window.scrollY;
@@ -25,11 +27,13 @@ const Header = () => {
                                 <option value="features">features</option>
                                 <option value="features">features</option>
                                 <option value="features">features</option>
+                                {/* <option value={data.name}>{data.name}</option> */}
                             </select></li>
                             <li><a href="#">Solutions</a></li>
                             <li><a href="#">Enterprise</a></li>
                             <li><a href="#">Resources</a></li>
-                            <li><a href="#">Pricing</a></li>
+                            {/* <li><a href="#">Pricing</a></li> */}
+                            {/* <li><a href="#">{data.name}</a></li> */}
                         </nav>
                     </div>
                     <div className="col-6">

@@ -9,8 +9,10 @@ import GoogleIcon from '@mui/icons-material/Google';
 import InlineButton from '../styledComponents/InlineButtons'
 import InlineButton2 from '../styledComponents/InlineButton2'
 import "./hero.Module.css"
-import { useEffect, useRef } from "react";
+import { useEffect, useRef,useContext } from "react";
+import { MyContext } from '../../index'
 const Hero = () => {
+    const data=useContext(MyContext)
     const vidRef = useRef()
     useEffect(() => { vidRef.current.play(); }, []);
     return (<>
@@ -20,14 +22,13 @@ const Hero = () => {
                     <div className="content_wrapper">
                         <div className="heading mb-md-3">
                             <h1 className='text-md-start text-center bigHeading'>Great teamwork starts <br />
-                                with a digital HQ</h1>
+                                with a digital HQ {data.name} {data.age}</h1>
                         </div>
                         <p><span style={{ color: "#ECB22E" }}>Slack is free to try</span> for as long as you like</p>
                         <div className="d-flex justify-content-between flex-lg-row flex-column">
                             <InlineButton hero_email>sign up with email address</InlineButton>
                             <InlineButton2 hero_google>sign up with google</InlineButton2>
                         </div>
-
                     </div>
                 </div>
                 <div className="col-lg-6 col-md-12 py-md-5">

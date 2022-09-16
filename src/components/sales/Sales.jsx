@@ -7,7 +7,7 @@ const Sale = () => {
     const heading3 = "Move faster with your tools in one place"
     const desc3 = "We were able to create a large virtual network of employees that can communicate as though they are together. There was a lot of disruption in terms of where we worked, but in terms of how we worked – very little disruption."
     const btn_desc3 = "Learn more about slack plateform"
-    
+
     return (<>
         <div className="container mt-md-5">
             <div className="row justify-content-center">
@@ -27,7 +27,7 @@ const Sale = () => {
                 <div className="col-md-auto">
                     <div className="wrapper_sales">
                         <span>85%</span>
-                        <p>of users say Slack has <br/> improved <br /> communication*</p>
+                        <p>of users say Slack has <br /> improved <br /> communication*</p>
                     </div>
                 </div>
                 <div className="col-md-auto">
@@ -37,15 +37,15 @@ const Sale = () => {
                     </div>
                 </div>
                 <div className="col-md-auto">
-                  <div className="wrapper_sales">
-                  <span>88%</span>
-                    <p>feel more connected to <br /> their teams*</p>
-                  </div>
+                    <div className="wrapper_sales">
+                        <span>88%</span>
+                        <p>feel more connected to <br /> their teams*</p>
+                    </div>
                 </div>
             </div>
-           <Team4 video={vdo4} heading={heading3} desc={desc3} btn_desc={btn_desc3}/>
+            <Team4 video={vdo4} heading={heading3} desc={desc3} btn_desc={btn_desc3} />
         </div>
-      
+
     </>)
 }
 export default Sale;

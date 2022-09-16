@@ -1,7 +1,9 @@
 import EastIcon from '@mui/icons-material/East';
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useContext } from "react";
 import ArrowButton from '../../styledComponents/ArrowButton'
+import { MyContext } from '../../..';
 const Team = (props) => {
+    const data = useContext(MyContext)
     const vidRef = useRef()
     useEffect(() => { vidRef.current.play(); }, []);
     return (<>
@@ -15,11 +17,11 @@ const Team = (props) => {
                     </div>
                     <div className="col-lg-5">
                         <div className="content">
-                            <h1>{props.heading}</h1>
-                            <p>{props.desc}</p>
+                            <h1>{props.heading} with {data.Contact.secondary}</h1>
+                            <p>{props.desc} {data.hobbies[2]}</p>
                             <div className="">
                                 <ArrowButton teams>{props.btn_desc}
-                                    <span className='arrowHide mx-2'><EastIcon/>
+                                    <span className='arrowHide mx-2'><EastIcon />
                                     </span></ArrowButton>
                             </div>
                         </div>
