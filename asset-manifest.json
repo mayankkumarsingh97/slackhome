@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/slackhome/static/css/main.1039b0f6.css",
+    "main.js": "/slackhome/static/js/main.046db717.js",
+    "static/media/chooseHowuworkto.webm": "/slackhome/static/media/chooseHowuworkto.65ec9e3e7a46b211b107.webm",
+    "static/media/bringTeamTogether.webm": "/slackhome/static/media/bringTeamTogether.99a24f182bb746f259e9.webm",
+    "static/media/weareablto.mp4": "/slackhome/static/media/weareablto.513f2c8fc741abd2e4e7.mp4",
+    "static/media/moveFaseter.webm": "/slackhome/static/media/moveFaseter.9fa3500d1b4ca93bd6a2.webm",
+    "static/media/hero-product-ui.webm": "/slackhome/static/media/hero-product-ui.a33fd284bfa2e2c9bf93.webm",
+    "static/media/img-promo-02.jpg": "/slackhome/static/media/img-promo-02.cec55bc3843148f8610e.jpg",
+    "static/media/img-promo-04.jpg": "/slackhome/static/media/img-promo-04.42b5dc988c1777a0cf46.jpg",
+    "static/media/img-promo-03.jpg": "/slackhome/static/media/img-promo-03.253027c1db27e4715d5f.jpg",
+    "static/media/img-promo-01.png": "/slackhome/static/media/img-promo-01.cbba08ee00784bcf3f80.png",
+    "index.html": "/slackhome/index.html",
+    "main.1039b0f6.css.map": "/slackhome/static/css/main.1039b0f6.css.map",
+    "main.046db717.js.map": "/slackhome/static/js/main.046db717.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1039b0f6.css",
+    "static/js/main.046db717.js"
+  ]
+}
