@@ -17,7 +17,7 @@ const Team = (props) => {
                     </div>
                     <div className="col-lg-5">
                         <div className="content">
-                            <h1>{props.heading} with {data.Contact.secondary}</h1>
+                            <h1>{props.heading}</h1>
                             <p>{props.desc} {data.hobbies[2]}</p>
                             <div className="">
                                 <ArrowButton teams>{props.btn_desc}

@@ -22,7 +22,7 @@ const Hero = () => {
                     <div className="content_wrapper">
                         <div className="heading mb-md-3">
                             <h1 className='text-md-start text-center bigHeading'>Great teamwork starts <br />
-                                with a digital HQ {data.name} {data.age}</h1>
+                                with a digital HQ</h1>
                         </div>
                         <p><span style={{ color: "#ECB22E" }}>Slack is free to try</span> for as long as you like</p>
                         <div className="d-flex justify-content-between flex-lg-row flex-column">
